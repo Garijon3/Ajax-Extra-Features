@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Aadhi000/Ajax.git /Ajax
+  git clone https://github.com/Garijon3/Ajax.git /Garijon3
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Ajax
+  git clone $UPSTREAM_REPO /Garijon3
 fi
 cd /Ajax
 pip3 install -U -r requirements.txt
